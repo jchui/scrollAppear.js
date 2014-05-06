@@ -8,7 +8,7 @@ A simple and easy to use plugin to allow elements to appear and disappear on scr
 First release, still new to writing jQuery plugins. So suggestions for feature requests and coding style improvements will be more than welcome!
 
 ## Usage
-All you will need to include the JavaScript file `scrollAppear.js` (or the minified version `scrollAppear.min.js`), as well as [jQuery](http://jquery.com/).
+All you will need to do is to include the JavaScript file `scrollAppear.js` (or the minified version `scrollAppear.min.js`), as well as [jQuery](http://jquery.com/).
 
 ###Including files:
 ```html
