@@ -21,7 +21,7 @@ All you will need to include the JavaScript file `scrollAppear.js` (or the minif
 
 - `fadeIn`: (default `1`) If you want the element to fade in on scroll. Can be 1, 0, or animation duration.
 
-- `fadeOut`: (default `1') If you want the element to fade out on scroll. Can be 1, 0, or animation duration.
+- `fadeOut`: (default `1`) If you want the element to fade out on scroll. Can be 1, 0, or animation duration.
 
 - `appearSpot`: (default `400`) Position down the page that is scrolled before element appears. Can be the id of an element.
 
