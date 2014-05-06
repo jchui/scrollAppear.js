@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Appear</title>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/scrollAppear.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css?v=1" />
+    <link rel="stylesheet" href="css/prism.css" />
+    
+  </head>
+  <body>
+  
+  	<div class="header">
+		This header only appears after scrolling past the "example-header" div.
+	</div>
+  
+  	<div class="content-wrap">
+  		<div id="example-header">
+	  		<h1>scrollAppear.js</h1>
+	  		<p><a href="">Check me out on Github!</a></p>
+  		</div>
+  		
+  		<div class="content">
+  			<p>Simple Implementation</p>
+  			<pre><code class="language-markup">
+  				&lt;!DOCTYPE html&gt;<br />
+				&lt;html&gt;<br />
+				&lt;head&gt;<br />
+					...<br />
+					&lt;script src="js/scrollAppear.js"&gt;&lt;/script&gt;<br />
+				&lt;/head&gt;<br />
+				&lt;body&gt;<br />
+					...<br />
+					&lt;div id="header"&gt;&lt;/div&gt;<br/>
+					...<br />
+					&lt;script type="text/javascript"&gt;<br />
+				  		$(function () {<br />
+						    $(".header").sappear({<br />
+							    'fadeIn' : 'slow',<br />
+					            'fadeOut' : 'slow',<br />
+					            'appearSpot' : 'example-header',<br />
+					            'disappearSpot' : 'none'<br />
+							});<br />
+						});<br />
+				    &lt;/script&gt;<br />
+				&lt;/body&gt;<br />
+				&lt;/html&gt;
+  			</code></pre>
+  			
+  			
+  		</div>
+  	</div>
+  	
+  	<script type="text/javascript">
+  		$(function () {
+		    $(".header").sappear({
+			    fadeIn : 'slow',
+	            fadeOut : 'slow',
+	            appearSpot : 'example-header',
+	            disappearSpot : 'none'
+			});
+		});
+    </script>
+    
+    <script src="js/prism.js"></script>
+  </body>
+</html>
